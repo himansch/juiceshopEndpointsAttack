@@ -1,5 +1,5 @@
 import axios from 'axios';
-const baseurl = 'http://juiceshop-lb1-217932430.us-east-2.elb.amazonaws.com/';
+const baseurl = 'http://nodegoat-lb2-14329458.us-east-2.elb.amazonaws.com/';
 
 const inputApiSet = {
     "GET": [{
@@ -71,15 +71,15 @@ const inputApiSet = {
             auth: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.    eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjEsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJqaGltYW5zY2gxQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiNjE3MjE2MmI2YWE0ZTI4MTY0YWQxNzVjODRmZjgwOGEiLCJyb2xlIjoiY3VzdG9tZXIiLCJkZWx1eGVUb2tlbiI6IiIsImxhc3RMb2dpbklwIjoiMC4wLjAuMCIsInByb2ZpbGVJbWFnZSI6Ii9hc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHQuc3ZnIiwidG90cFNlY3JldCI6IiIsImlzQWN0aXZlIjp0cnVlLCJjcmVhdGVkQXQiOiIyMDIyLTExLTE1IDA4OjExOjM2LjQwNyArMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDIyLTExLTE1IDA4OjExOjM2LjQwNyArMDA6MDAiLCJkZWxldGVkQXQiOm51bGx9LCJpYXQiOjE2Njg1MDAwNDcsImV4cCI6MTY2ODUxODA0N30.o6epkB2cH-u5gHUBBOIpx1T3db7Qdz-cuplZssMZniaol9aIx5OKuzGkF2ReKfFRrj-MG22Htx4tNQPbOMPpBrab2_CfdX2xr4YX7hFBAr_OoVYlfHjBeLIyNlxulwkwno7HskcFiRTOil4I_hbYLXnLuyFeQkJVodYOsTjoVQw"
         },
         {
-            attack: "rest/basket/6",
-            auth: "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MjEsInVzZXJuYW1lIjoiIiwiZW1haWwiOiJqaGltYW5zY2gxQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiNjE3MjE2MmI2YWE0ZTI4MTY0YWQxNzVjODRmZjgwOGEiLCJyb2xlIjoiY3VzdG9tZXIiLCJkZWx1eGVUb2tlbiI6IiIsImxhc3RMb2dpbklwIjoiMC4wLjAuMCIsInByb2ZpbGVJbWFnZSI6Ii9hc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHQuc3ZnIiwidG90cFNlY3JldCI6IiIsImlzQWN0aXZlIjp0cnVlLCJjcmVhdGVkQXQiOiIyMDIyLTExLTE1IDA4OjExOjM2LjQwNyArMDA6MDAiLCJ1cGRhdGVkQXQiOiIyMDIyLTExLTE1IDA4OjExOjM2LjQwNyArMDA6MDAiLCJkZWxldGVkQXQiOm51bGx9LCJpYXQiOjE2Njg1MDAwNDcsImV4cCI6MTY2ODUxODA0N30.o6epkB2cH-u5gHUBBOIpx1T3db7Qdz-cuplZssMZniaol9aIx5OKuzGkF2ReKfFRrj-MG22Htx4tNQPbOMPpBrab2_CfdX2xr4YX7hFBAr_OoVYlfHjBeLIyNlxulwkwno7HskcFiRTOil4I_hbYLXnLuyFeQkJVodYOsTjoVQw"
-        },
-        {
-            attack: "rest/memories",
+            attack: "/memos",
             auth: ""
         },
         {
-            attack: "rest/admin/application-configuration",
+            attack: "allocations/1",
+            auth: ""
+        },
+        {
+            attack: "/contributions",
             auth: ""
         },
 
