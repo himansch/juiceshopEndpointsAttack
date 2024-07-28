@@ -1,0 +1,22 @@
+{
+	"info": {
+		"_postman_id": "8847ae99-e348-4368-9b03-a11dce83afb2",
+		"name": "test 2.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"id": "79d55da9-0894-4f0f-a084-6b1c6f94a7be",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "himanshu.work"
+			},
+			"response": []
+		}
+	]
+}
